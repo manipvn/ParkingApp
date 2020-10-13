@@ -1,0 +1,9 @@
+
+create table parkingarea(id,address);
+create table parkingslot('slot_id','vehicle','type','starttime','endtime',availble, area_id,effective);
+create table parkinghistory('slot_id','vehicle','type','starttime','endtime',availble,charged_amount ,area_id);
+
+1. Get All available slots with vehicleType
+
+Select slot from parkingslot where available=true and type='two_wheeler' and area_id=1;
+update parkingslot vehicle = 'vehicleId', available = false;

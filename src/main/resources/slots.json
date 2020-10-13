@@ -1,0 +1,9 @@
+[
+  {"slot": "1", "type": "TWO_WHEELER"},
+  {"slot": "2", "type": "TWO_WHEELER"},
+  {"slot": "3", "type": "HATCHBACK"},
+  {"slot": "4", "type": "HATCHBACK"},
+  {"slot": "5", "type": "SUV"},
+  {"slot": "6", "type": "SUV"},
+  {"slot": "7", "type": "SUV"}
+]
